@@ -1,0 +1,542 @@
+/* resetting browser stuff */
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+header   {
+  background: #24292e;;
+  color: #FFF;
+  padding: 20px 30px;
+}
+
+/* logo */
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+  
+}
+#logo img    {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#logo span   {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* main navigation */
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  color: grey;
+}
+
+#signUp{
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+  border-color: #d1d5da;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#searchInput{
+  height: 30px;
+  background-color: hsla(0,0%,100%,.125);
+  box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+
+
+/* styling our footer */
+footer   {
+  background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/* styling our main content */
+.jumbotron           {
+ min-height: 600px;
+  background-image: url('../img/simple-codelines.svg');
+  background-size: cover;
+  background-position: center 10%;
+  background-color: rgb(43, 49, 55);
+  color: hsla(0,0%,100%,.6);
+}
+.jumbotron-content   {
+  color: #FFF;
+  padding-top: 4em;
+}
+.jumbotron-form{
+  border-radius: 0.3em;
+  float: right;
+  width: 30%;
+  background-color: white;
+  box-sizing: border-box;
+  color: #222;
+  padding: 24px!important;
+  margin-right: 10em;
+  font-size: 16px;
+}
+
+.jumbotron-form input{
+  width: 100%;
+  height: 48px;
+  color: #333;
+  font-size: 14px;
+  outline: none !important;
+  border: 1px solid rgb(231, 220, 220);
+  border-radius: 5px;
+  font-size: 16px;
+  min-height: 46px;
+  padding: 10px;
+  vertical-align: top;
+}
+#form-btn{
+  background-color: #2ebc4f;
+  border-color: #2ebc4f;
+  border-radius: 3px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.jumbotron-form p{
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.jumbotron-form label{
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.jumbotron-text{
+  border: none;
+  float: left;
+  max-width: 50%;
+  margin-left: 10em;
+  margin-top:60px;
+}
+
+.jumbotron-text h1{
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 16px;
+  display: block;
+  text-align: left;
+}
+.jumbotron-text p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  display: block;
+  text-align: left;
+  color:  hsla(0,0%,100%,.6);
+}
+#p-link{
+  color:white;
+}
+
+/* enterprise style */
+.enterprise{
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  width: 83.33333%;
+  display: block;
+  line-height: 1.5;
+}
+
+#enterprise-h2{
+  font-size: 32px;
+  font-weight: 600;
+  color: #24292e
+}
+
+#enterprise-p{
+  color: #586069;
+  font-size: 16px;
+}
+
+#enterprise-btn{
+  background-color: #1074e7;
+  border: 1px solid #1074e7;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 24px;
+  transition: .2s;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+#enterprise-link{
+  text-decoration: none;
+}
+
+/* businesses and organization  */
+.businesses{
+  margin-top:100px!important;
+  margin:auto;
+  max-width: 1020px;
+  display: block;
+  color: #24292e;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#businesses-h3{
+  line-height: 1.25;
+  margin-bottom: 24px;
+  color:#6a737d;
+
+}
+
+#org-list{
+  filter: grayscale(100%);
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  
+}
+
+/* github team */
+.github-team{
+  margin-top: 100px;
+}
+#github-h2{
+  font-weight: 400;
+  font-size: 16px!important;
+  color: #586069;
+  font-family: monospace;
+}
+
+#github-p1{
+  font-size: 48px;
+  font-family: Helvetica;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 8px;
+}
+
+#github-p2{
+  font-size:20px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 24px;
+  color:#585059;
+}
+
+#github-btn{
+  background-color: hsla(0,0%,100%,0);
+  border-color: rgba(16,116,231,.5);
+  color: #1074e7;
+  font-size: 16px;
+  padding: 20px 32px;
+  border: 1px solid #1074e7;
+  border-radius: 3px;
+  display: inline-block;
+  transition: .2s;
+  cursor: pointer;
+}
+
+/* github robot */
+.robot{
+  margin-bottom: 100px;
+  padding: 100px;
+}
+#robot-img{
+  width:60%;
+  float: left;
+  padding-right: 40px;
+}
+
+#robot-text{
+  float: right;
+  width: 83.33333%;
+  color: #24292e;
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#text{
+  cursor: pointer;
+  color: #24292e;
+  display: inline;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* card container */
+.card-container{
+  width:100%;
+  box-sizing: border-box;
+  display: flex;
+}
+.card {
+  /* margin:40px; */
+  flex-flow: row;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#arrow{
+  float: right;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#card-h1{
+  font-size:16px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 4px;
+  color: #24292e
+}
+
+#card-span1{
+  display: block;
+  margin-bottom: 8px;
+  font-size:12px;
+  color: #586069;
+}
+#card-span2{
+  margin: auto;
+  color:#1074e7;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width:100%;
+  justify-content: space-between;
+  border-top: 1px solid #e1e4e8
+}
+#card-img{
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  display: block;
+}
+
+.security{
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top:7em;
+  margin-bottom:7em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1012px;
+  display: block;
+  box-sizing: border-box;
+  font-size:16px;
+  color: #242922;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#security-h2{
+  font-family: monospace;
+  font-weight: 400;
+  color:#586069;
+}
+
+#security-p1{
+  font-size: 48px;
+  font-family: Helvetica;
+  font-weight: 500;
+  margin-top:16px;
+  margin-bottom: 8px;
+  color:#24292e;
+}
+
+#security-p2{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 24px;
+  color: #586069;
+}
+
+#security-btn{
+  background-color: hsla(0,0%,100%,0);
+  border-color: rgba(16,116,231,.5);
+  color: #1074e7;
+  font-size: 16px;
+  padding: 20px 32px;
+  border: 1px solid #1074e7;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  transition: .2s;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+/* .hero-content h1   {
+  font-size: 100px;
+  margin: 0;
+}
+.hero-content p    {
+  font-size: 50px;
+}
+.hero-content a    {
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+} */
+
+/*Sign up form*/
+
+
+
+/* basic site sections */
+.site-section   {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.site-section-secondary   {
+  background: #EFEFEF;
+}
+.site-section-inside   {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-header h2  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+/* feature boxes
+.feature-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.feature-box img  {
+  margin-bottom: 12px;
+  width: 80px;
+}
+.feature-box h5   {
+  font-size: 20px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+} */
+
+/* testimonial boxes */
+.testimonial-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.testimonial-content   {
+  background: #FFF;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.testimonial-author           {
+
+}
+.testimonial-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.testimonial-author h5   {
+  font-size: 18px;
+  margin: 0;
+  padding-top:15px;
+}
+.testimonial-author span {
+  font-size: 14px;
+}
